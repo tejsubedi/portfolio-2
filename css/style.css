@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body, html{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    background: url("../assets/images/beige-tiles.png");
+    display: grid;
+    grid-auto-rows: minmax(75px, auto);
+}
+.container {
+    width: 75%;
+    margin: 5px auto;
+    grid-template-rows: 51px fit-content(30%);
+    display: grid;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline;
+    
+}
+ul li a {
+    color: #239B56;
+    padding: 25px;
+    
+
+}
+header {
+    display: grid;
+    grid-template-columns: fit-content(30%) auto;
+    height: 100px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(165, 170, 170);
+    text-transform: uppercase;
+}
+header .current a{
+    color: #239B56;
+    font-weight: bold;
+}
+header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+#logo {
+    padding-top: 15px;
+    margin-left: 0px;
+    margin-top: 45px;
+    padding-right: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+    height: auto;
+    background-color: #4aaaa5   ;
+    
+}
+
+section#main-content {
+    /* background-color: #36ADAD; */
+    padding: 1em;
+    border-top: 5px solid rgb(165, 170, 170);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    overflow: scroll;
+   grid-gap: 1em;
+}
+/* #content h1 {
+    text-transform: uppercase;
+    color: #FFFBC5;
+} */
+#content p {
+    /* color: #ffffff; */
+}
+img {
+    max-width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+#myimg {
+    /* border-radius: 50%; */
+    width: 200px;
+    height: 200px;
+
+}
+aside {
+    /* background-color:  #36ADAD;
+    color: #239B56; */
+    margin-top: 65px;
+}
+#about {
+    color: #239B56;
+}
+
+footer {
+    background: #36ADAD;
+     /* margin-bottom: 2px; */
+     padding: 10px;
+     margin-top: 10px;
+    grid-column-start: 1;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+
+}
+
+#footer-page {
+    text-align: center;
+    color: white;   
+    padding-top: 20px;
+}
+
+section#main-portfolio {
+    /* background-color: #36ADAD; */
+    padding: 1em;
+    border-top: 5px solid rgb(165, 170, 170);
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    overflow: scroll;
+    grid-gap: 1em;
+}
+.imagename {
+    background-color: #239B56;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.image-1 {
+    border: 5px solid salmon;
+    
+}
+
+
+/* Contact Page */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
