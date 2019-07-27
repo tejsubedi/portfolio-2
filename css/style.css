@@ -104,8 +104,11 @@ section#main-content {
 footer {
   background: #666666;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   grid-column-start: 1;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  height: 15px;
   position: fixed;
   bottom: 0;
  width: 100%;
@@ -121,7 +124,7 @@ footer {
 section#main-portfolio {
   /* background-color: #36ADAD; */
   padding: 1em;
-  border-top: 5px solid rgb(165, 170, 170);
+  border-top: 3px solid rgb(165, 170, 170);
   display: grid;
   grid-template-columns: repeat(3, auto);
   overflow: scroll;
@@ -131,7 +134,7 @@ section#main-portfolio {
 .imagename {
   background-color: #239b56;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .image-1 {
   border: 2px solid salmon;
